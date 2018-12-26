@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /demo
+
+logging:
+  # 在当前磁盘的根路径下创建spring文件夹和里面的log文件夹；使用 spring.log 作为默认文件
+  path: /spring/log
+
+  pattern:
+    # 在控制台输出的日志的格式
+    console: "%d{yyyy-MM-dd} [%thread] %-5level %logger{50} - %msg%n"
+    # 指定文件中日志输出的格式
+    file: "%d{yyyy-MM-dd} === [%thread] === %-5level === %logger{50} ==== %msg%n"
