@@ -9,6 +9,16 @@
 .settings
 .springBeans
 .sts4-cache
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+.settings/
+.loadpath
+.recommenders
 
 ### IntelliJ IDEA ###
 .idea
@@ -23,3 +33,14 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+
+### Application ###
+application.pid
+
+### Java template
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
